@@ -1,0 +1,165 @@
+body {
+	font-family: Helvetica;
+}
+header  {
+	margin: 0 auto;
+	color: #fff;
+	border-bottom: 1px solid #333;
+	background-color: #333;
+}
+.logo img {
+	position: relative;
+	left: 40px;
+	width: 90px;
+	height: 95px;
+}
+nav ul {
+	list-style-type: none;
+	padding-top: 40px;
+	margin: 0 -15px 0 0;
+	float: right;
+	position: relative;
+	right: 40px;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+nav li {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+nav li:hover a {
+	background: #585858;
+}
+nav a {
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #eee;
+	text-shadow: 2px 2px 4px #000;
+}
+nav a:hover {
+	color: #fff;
+}
+#muestra {
+	background-color: #eee;
+	padding-bottom: 20px;
+}
+.latest p {
+	margin-left: 20px;
+	color: black;
+	padding: 10px;
+}
+.latest a {
+	text-decoration: none;
+	color: #003399;
+	font-size: 11px;
+}
+.first img {
+	width: 190px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.first a {
+	text-decoration: none;
+}
+.first p {
+	text-align: center;
+	color: #003399;
+	font-size: 15px;
+	font-weight: bold;
+}
+/*aquí empieza segundo container*/
+#lista {
+	background-color: white;
+}
+.broadcast a {
+	position: relative;
+	top: 10px;
+	margin: 10px;
+	float: left;
+	color: #369;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+.with_border {
+	background: #fff;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+h5 {
+	padding: 1px;
+	text-align: center;
+	font-size: 11px;
+	margin: 0 0 5px 0,
+}
+.suscribe p {
+	text-align: left;
+	color: gray;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.suscribe h5 {
+	font-size: 14px;
+	color: #003399;
+	position: absolute;
+	display: inline-block;
+	margin: 15px 5px;
+}
+.suscribe img {
+	height: 15px;
+	width: 15px;
+	margin-top: 15px;
+}
+.suscribe ul {
+	color: #003399;
+	list-style-type: none;
+	text-decoration: none;
+}
+.suscribe a {
+	color: #003399;
+	text-decoration: none;
+}
+#footer {
+	background-color: #333;
+}
+#footer .row {
+	padding: 20px 0px;
+}
+.footer p {
+	padding: 0 20px;
+	color: #eee;
+	font-size: 12px;
+	line-height: 25px;
+}
+.footer a {
+	color: gray;
+	text-decoration: none;
+}
+.more {
+	margin-left: 30px;
+}
+.more li {
+	display: inline-block;
+	float: right;
+	padding: 0;
+}
+.more ul {
+	list-style-type: none;
+	padding-top: 10px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.more a {
+	text-decoration: none;
+	padding: 10px 15px;
+	color: gray;
+}
+.copy p {
+	padding-top: 20px;
+	font-size: 10px;
+	color: gray;
+	text-align: center;
+}
